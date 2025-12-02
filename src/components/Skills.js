@@ -3,7 +3,7 @@ import react from "../assets/img/react.png";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import colorSharp from "../assets/img/color-sharp.png";
-import Image from "react-bootstrap/image";
+import { Image } from "react-bootstrap";
 import CSS3 from "../assets/img/CSS3.png";
 import Bootstrap from "../assets/img/Bootstrap.png";
 import Figma from "../assets/img/Figma.png";

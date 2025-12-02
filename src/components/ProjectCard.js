@@ -1,5 +1,4 @@
-import { Col } from "react-bootstrap";
-import Image from "react-bootstrap/image";
+import { Col, Image } from "react-bootstrap";
 export const ProjectCard = ({ title, description, imgUrl, url }) => {
   return (
     <Col size={12} sm={6} md={4}>
