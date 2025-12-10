@@ -4,6 +4,7 @@ import fixHub from "../assets/img/projects/fixHub.png";
 import hangman from "../assets/img/projects/hangman.png";
 import twitterclone from "../assets/img/projects/twitterclone.png";
 import whetherApp from "../assets/img/projects/whetherApp.png";
+import ziagen from "../assets/img/projects/aws.png";
 import todolist from "../assets/img/projects/todoList.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
@@ -11,6 +12,12 @@ import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
   const projects = [
+    {
+      title: "ZiaGen",
+      description: "The AI Image Generator",
+      imgUrl: ziagen,
+      url: "https://ziagen.vercel.app/",
+    },
     {
       title: "FixHub",
       description: "The AI Front Door for Property Claims",
